@@ -66,7 +66,7 @@ nav{
 }
 
 #trend img, #featured img, #latest img{
-     fill: none;
+    fill: none;
 }
 
 
@@ -202,6 +202,156 @@ nav{
 .markdown img{
     width: 80%;
 }
+
+
+.toppage{
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+.toppage button {
+    padding: 6px;
+    font-size: 20px;
+    width: 50px;
+    background-color: #414141;
+    color: white;
+    border: none;
+}
+.toppage button svg {
+    font-size: 20px;
+}
+.toppage .button:disabled{
+    background-color:hsla(0, 0%, 100%, .04);
+    width: 5px;
+    padding: 7px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 10px;
+    background-color: #252525;
+    width: 300px;
+    position: relative;
+    height: 550px;
+    /* padding-top: 15px; */
+}
+.box1{
+    /* position: absolute; */
+}
+
+
+.imgbg {
+    background-color: #414141;;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 180px;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.imgbg:hover {
+    padding-top: 10px;
+    transition: 0.3;
+}
+
+.box .image img {
+    width: 250px;
+}
+
+.content {
+    padding-left: 15px;
+}
+
+.code {
+    background-color: aqua;
+    display: inline;
+    padding: 3px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#author img {
+    width: 30px;
+    margin-right: 7px;
+}
+
+.foot {
+    background-color:hsla(0, 0%, 100%, .1);
+    padding: 15px;
+    position: absolute;
+}
+.box1 .foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.box2 .foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.box3 .foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.box4 .foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.box5 .foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.box6 .foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.box7 .foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.box8 .foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footmini {
+    display: flex;
+    background-color: hsla(0, 0%, 100%, .05);
+        ;
+    padding: 10px;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.iconify {
+    margin-right: 5px;
+}
+
+#line {}
 
 
 

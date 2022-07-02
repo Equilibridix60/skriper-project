@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color:white;
+    max-width: 1440px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width:100%;
+    height: 15vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-bottom: 3px solid black;
+    background-color: black;
+}
+
+.menu{
+    height: 30px;
+    position: relative;
+    left: 280px;
+    margin-bottom: 30px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu ul li{
+    list-style-type: none;
+    margin: 10px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+#trend a, #featured a, #latest a{
+    color: grey;
+}
+
+#trend img, #featured img, #latest img{
+     fill: none;
+}
+
+
+#coding{
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: #33a9dc;
+    height: 30px;
+    width:  150px;
+    text-align: center;
+}
+
+#login{
+    border: 1px solid grey;
+    background-color: black;
+}
+
+#search{
+    border: 1px solid grey;
+    height: 30px;
+    width:  50px;
+    text-align: center;
+    background-color: black;
+}
+
+.skriper img{
+    position: relative;
+    left: 350px;
+    margin-top: 90px;
+}
+
+
+.ideas{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ideas h1{
+    color: linear-gradient(292.46deg,#27ae60 17.79%,#2f80ed 35.92%,#9b51e0 54.06%,#eb5757 71.08%,#f2994a 87.36%);
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.ideas h2{
+    margin: 5px;
+}
+
+.code img{
+    width: 70%;
+    margin-left: 150px;
+}
+
+.code p{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.writeup{
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.writeup h2, .writeup p{
+    margin:10px;
+}
+
+
+.html-css-js img{
+    width: 100%;
+    margin-right:60px;
+    margin-top: 70px;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 30px;
+}
+
+.sharecode img{
+    width: 100%;
+}
+
+.sharecode h2, .sharecode p{
+    position:relative;
+    left:60px;
+    margin: 5px;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 30px;
+}
+
+.snippets img{
+    width: 80%;
+}
+
+.snippets h2, .snippets p{
+    margin: 5px;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+}
+
+.tutorial img{
+    width: 70%;
+}
+
+.tutorial h2, .tutorial p{
+    margin: 15px;
+}
+
+.flex4{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 30px;
+}
+
+.markdown img{
+    width: 80%;
+}
+
+
+
+footer{
+    background-color:hsla(0,0%,100%,.05);
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    margin: 0;
+}
+
+
+.flexi1{
+    position:relative;
+    left:60px;
+    top: 40px;
+}
+
+
+.flexi2{
+    position:relative;
+    left:250px;
+    top: 40px; 
+}
+
+.flexi2 ul li{
+    list-style-type: none;
+}
+
+.flexi2 ul li, .flexi2 h4{
+    margin: 10px;
+}
+
+.flexi3{
+    position:relative;
+    left:400px;
+    top: 40px;
+}
+
+.flexi3 img{
+    margin: 5px;
+}
